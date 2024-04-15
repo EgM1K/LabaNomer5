@@ -26,13 +26,25 @@ namespace LabaNomer5
             {
                 throw new FileNotFoundException($"Файл {filePath} не знайдено.");
             }
+
             string fileContent = File.ReadAllText(filePath);
+
             if (string.IsNullOrWhiteSpace(fileContent))
             {
                 throw new Exception($"Файл {filePath} порожній або містить лише пробіли.");
             }
 
             return fileContent;
+        }
+        public static List<string> GetFilesInDirectory(string directory)
+        {
+            if (!Directory.Exists(directory))
+            {
+                throw new DirectoryNotFoundException($"Директорія {directory} не знайдена.");
+            }
+
+            List<string> files = new List<string>(Directory.GetFiles(directory));
+            return files;
         }
         public static Dictionary<string, int> AggregateData(List<string> files, TextAnalyzer analyzer)
         {

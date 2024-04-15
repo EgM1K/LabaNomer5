@@ -24,7 +24,7 @@ namespace LabaNomer5
         {
             return JsonConvert.SerializeObject(this);
         }
-        public static Company FromJson(string json)
+        public static Company? FromJson(string json)
         {
             return JsonConvert.DeserializeObject<Company>(json);
         }
