@@ -14,7 +14,6 @@ namespace LabaNomer5
         {
             this.company = company;
         }
-
         public int AnalyzeText(string text)
         {
             int mentions = 0;
@@ -33,7 +32,6 @@ namespace LabaNomer5
         public static Dictionary<string, object> AggregateData(List<string> files, TextAnalyzer analyzer)
         {
             Dictionary<string, object> data = new Dictionary<string, object>();
-
             data["Company"] = new
             {
                 Name = analyzer.company.Name,
@@ -42,8 +40,7 @@ namespace LabaNomer5
                 CEO = analyzer.company.CEO,
                 EmployeeCount = analyzer.company.EmployeeCount
             };
-
-            Dictionary<string, Dictionary<string, int>> textData = new Dictionary<string, Dictionary<string, int>>();
+            Dictionary<string, object> textData = new Dictionary<string, object>();
 
             foreach (string file in files)
             {
@@ -55,12 +52,14 @@ namespace LabaNomer5
                     int mentions = text.Split(new string[] { synonym }, StringSplitOptions.None).Length - 1;
                     fileData[synonym] = mentions;
                 }
-
-                textData[file] = fileData;
+                textData[file] = new
+                {
+                    Mentions = fileData,
+                    DateModified = File.GetLastWriteTime(file),
+                    Size = new FileInfo(file).Length
+                };
             }
-
             data["TextData"] = textData;
-
             return data;
         }
     }

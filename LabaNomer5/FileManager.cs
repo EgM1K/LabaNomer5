@@ -21,7 +21,6 @@ namespace LabaNomer5
             this.FilePath = filePath;
             this.LastModified = File.GetLastWriteTime(filePath);
         }
-
         public static string ReadFile(string filePath)
         {
             if (!File.Exists(filePath))
@@ -38,7 +37,6 @@ namespace LabaNomer5
 
             return fileContent;
         }
-
         public static List<string> GetFilesInDirectory(string directory)
         {
             if (!Directory.Exists(directory))
@@ -54,7 +52,6 @@ namespace LabaNomer5
             FileInfo fileInfo = new FileInfo(FilePath);
             return fileInfo.Length;
         }
-
         public bool IsRecentlyModified()
         {
             return (DateTime.Now - LastModified).TotalDays < 7;

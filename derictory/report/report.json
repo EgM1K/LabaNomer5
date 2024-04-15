@@ -11,8 +11,12 @@
   },
   "TextData": {
     "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": {
-      "MSFT": 0,
-      "Майкрософт": 2
+      "Mentions": {
+        "MSFT": 0,
+        "Майкрософт": 2
+      },
+      "DateModified": "2024-04-15T23:52:57.8364273+03:00",
+      "Size": 1587
     }
   }
 }
