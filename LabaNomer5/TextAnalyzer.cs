@@ -2,6 +2,7 @@
 using System.IO;
 using System.Collections.Generic;
 using Newtonsoft.Json;
+using System.Text.RegularExpressions;
 
 namespace LabaNomer5
 {
@@ -22,6 +23,12 @@ namespace LabaNomer5
                 mentions += text.Split(new string[] { synonym }, StringSplitOptions.None).Length - 1;
             }
             return mentions;
+        }
+        private string PreprocessText(string text)
+        {
+            text = text.ToLower();
+            text = Regex.Replace(text, @"[^\w\s]", "");
+            return text;
         }
     }
 }
