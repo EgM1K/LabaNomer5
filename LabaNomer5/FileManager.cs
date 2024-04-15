@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LabaNomer5
 {
-    internal class FileManager
+    public class FileManager
     {
         public string FilePath { get; set; }
         public DateTime LastModified { get; set; }
