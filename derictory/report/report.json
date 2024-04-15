@@ -1,3 +1,18 @@
 {
-  "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": 2
+  "Company": {
+    "Name": "Microsoft",
+    "Synonyms": [
+      "MSFT",
+      "Майкрософт"
+    ],
+    "DateFounded": "1975-04-04T00:00:00",
+    "CEO": "Satya Nadella",
+    "EmployeeCount": 163000
+  },
+  "TextData": {
+    "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": {
+      "MSFT": 0,
+      "Майкрософт": 2
+    }
+  }
 }

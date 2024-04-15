@@ -23,7 +23,7 @@
 
             List<string> files = FileManager.GetFilesInDirectory(newDirectory);
 
-            Dictionary<string, int> data = FileManager.AggregateData(files, analyzer);
+            Dictionary<string, object> data = TextAnalyzer.AggregateData(files, analyzer);
 
             ReportGenerator.GenerateReport(data, Path.Combine(reportDirectory, "report.json"));
         }

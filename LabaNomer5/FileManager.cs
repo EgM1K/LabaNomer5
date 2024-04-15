@@ -10,6 +10,7 @@ namespace LabaNomer5
     {
         public string FilePath { get; set; }
         public DateTime LastModified { get; set; }
+
         public FileManager(string filePath)
         {
             if (!File.Exists(filePath))
@@ -20,6 +21,7 @@ namespace LabaNomer5
             this.FilePath = filePath;
             this.LastModified = File.GetLastWriteTime(filePath);
         }
+
         public static string ReadFile(string filePath)
         {
             if (!File.Exists(filePath))
@@ -36,6 +38,7 @@ namespace LabaNomer5
 
             return fileContent;
         }
+
         public static List<string> GetFilesInDirectory(string directory)
         {
             if (!Directory.Exists(directory))
@@ -46,24 +49,12 @@ namespace LabaNomer5
             List<string> files = new List<string>(Directory.GetFiles(directory));
             return files;
         }
-        public static Dictionary<string, int> AggregateData(List<string> files, TextAnalyzer analyzer)
-        {
-            Dictionary<string, int> data = new Dictionary<string, int>();
-
-            foreach (string file in files)
-            {
-                string text = ReadFile(file);
-                int mentions = analyzer.AnalyzeText(text);
-                data[file] = mentions;
-            }
-
-            return data;
-        }
         public long GetFileSize()
         {
             FileInfo fileInfo = new FileInfo(FilePath);
             return fileInfo.Length;
         }
+
         public bool IsRecentlyModified()
         {
             return (DateTime.Now - LastModified).TotalDays < 7;

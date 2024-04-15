@@ -30,5 +30,38 @@ namespace LabaNomer5
             text = Regex.Replace(text, @"[^\w\s]", "");
             return text;
         }
+        public static Dictionary<string, object> AggregateData(List<string> files, TextAnalyzer analyzer)
+        {
+            Dictionary<string, object> data = new Dictionary<string, object>();
+
+            data["Company"] = new
+            {
+                Name = analyzer.company.Name,
+                Synonyms = analyzer.company.Synonyms,
+                DateFounded = analyzer.company.DateFounded,
+                CEO = analyzer.company.CEO,
+                EmployeeCount = analyzer.company.EmployeeCount
+            };
+
+            Dictionary<string, Dictionary<string, int>> textData = new Dictionary<string, Dictionary<string, int>>();
+
+            foreach (string file in files)
+            {
+                string text = FileManager.ReadFile(file);
+                Dictionary<string, int> fileData = new Dictionary<string, int>();
+
+                foreach (string synonym in analyzer.company.Synonyms)
+                {
+                    int mentions = text.Split(new string[] { synonym }, StringSplitOptions.None).Length - 1;
+                    fileData[synonym] = mentions;
+                }
+
+                textData[file] = fileData;
+            }
+
+            data["TextData"] = textData;
+
+            return data;
+        }
     }
 }
