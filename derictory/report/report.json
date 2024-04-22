@@ -1,22 +1,134 @@
 {
-  "Company": {
-    "Name": "Microsoft",
-    "Synonyms": [
-      "MSFT",
-      "Майкрософт"
-    ],
-    "DateFounded": "1975-04-04T00:00:00",
-    "CEO": "Satya Nadella",
-    "EmployeeCount": 163000
+  "Microsoft": {
+    "Company": {
+      "Name": "Microsoft",
+      "Synonyms": [
+        "MSFT",
+        "Майкрософт"
+      ],
+      "DateFounded": "1975-04-04T00:00:00",
+      "CEO": "Satya Nadella",
+      "EmployeeCount": 163000
+    },
+    "TextData": {
+      "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": {
+        "Mentions": {
+          "MSFT": 0,
+          "Майкрософт": 2
+        },
+        "DateModified": "2024-04-15T23:52:57.8364273+03:00",
+        "Size": 1587
+      }
+    }
   },
-  "TextData": {
-    "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": {
-      "Mentions": {
-        "MSFT": 0,
-        "Майкрософт": 2
-      },
-      "DateModified": "2024-04-15T23:52:57.8364273+03:00",
-      "Size": 1587
+  "Tesla, Inc.": {
+    "Company": {
+      "Name": "Tesla, Inc.",
+      "Synonyms": [
+        "TSLA",
+        "Тесла"
+      ],
+      "DateFounded": "2003-07-01T00:00:00",
+      "CEO": "Elon Musk",
+      "EmployeeCount": 750000
+    },
+    "TextData": {
+      "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": {
+        "Mentions": {
+          "TSLA": 0,
+          "Тесла": 0
+        },
+        "DateModified": "2024-04-15T23:52:57.8364273+03:00",
+        "Size": 1587
+      }
+    }
+  },
+  "Alibaba Group Holding Limited": {
+    "Company": {
+      "Name": "Alibaba Group Holding Limited",
+      "Synonyms": [
+        "BABA",
+        "Алібаба"
+      ],
+      "DateFounded": "1999-09-07T00:00:00",
+      "CEO": "Daniel Zhang",
+      "EmployeeCount": 620000
+    },
+    "TextData": {
+      "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": {
+        "Mentions": {
+          "BABA": 0,
+          "Алібаба": 0
+        },
+        "DateModified": "2024-04-15T23:52:57.8364273+03:00",
+        "Size": 1587
+      }
+    }
+  },
+  "Spotify Technology S.A.": {
+    "Company": {
+      "Name": "Spotify Technology S.A.",
+      "Synonyms": [
+        "SPOT",
+        "Спотіфай"
+      ],
+      "DateFounded": "2006-10-22T00:00:00",
+      "CEO": "Daniel Ek",
+      "EmployeeCount": 42000
+    },
+    "TextData": {
+      "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": {
+        "Mentions": {
+          "SPOT": 0,
+          "Спотіфай": 0
+        },
+        "DateModified": "2024-04-15T23:52:57.8364273+03:00",
+        "Size": 1587
+      }
+    }
+  },
+  "Airbnb, Inc.": {
+    "Company": {
+      "Name": "Airbnb, Inc.",
+      "Synonyms": [
+        "ABNB",
+        "Ейрбінбі"
+      ],
+      "DateFounded": "2008-08-02T00:00:00",
+      "CEO": "Brian Chesky",
+      "EmployeeCount": 130000
+    },
+    "TextData": {
+      "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": {
+        "Mentions": {
+          "ABNB": 0,
+          "Ейрбінбі": 0
+        },
+        "DateModified": "2024-04-15T23:52:57.8364273+03:00",
+        "Size": 1587
+      }
+    }
+  },
+  "Uber Technologies, Inc.": {
+    "Company": {
+      "Name": "Uber Technologies, Inc.",
+      "Synonyms": [
+        "UBER",
+        "Убер"
+      ],
+      "DateFounded": "2009-03-09T00:00:00",
+      "CEO": "Dara Khosrowshahi",
+      "EmployeeCount": 84000
+    },
+    "TextData": {
+      "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": {
+        "Mentions": {
+          "UBER": 0,
+          "Убер": 0
+        },
+        "DateModified": "2024-04-15T23:52:57.8364273+03:00",
+        "Size": 1587
+      }
     }
   }
 }

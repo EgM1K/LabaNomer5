@@ -1,4 +1,6 @@
-﻿namespace LabaNomer5
+﻿using System.Diagnostics;
+
+namespace LabaNomer5
 {
     public class Program
     {
@@ -6,26 +8,42 @@
         {
             string baseDirectory = @"C:\Users\egorm\source\repos\LabaNomer5";
             string newDirectory = Path.Combine(baseDirectory, "derictory");
+            string textNewsDirectory = Path.Combine(newDirectory, "text_news");
             string reportDirectory = Path.Combine(newDirectory, "report");
+            string companiesDirectory = Path.Combine(reportDirectory, "companies");
 
             Directory.CreateDirectory(newDirectory);
+            Directory.CreateDirectory(textNewsDirectory);
             Directory.CreateDirectory(reportDirectory);
+            Directory.CreateDirectory(companiesDirectory);
 
-            string textFilePath = Path.Combine(newDirectory, "text.txt");
-
-            if (!File.Exists(textFilePath))
+            if (!Directory.Exists(textNewsDirectory))
             {
-                throw new FileNotFoundException($"Файл {textFilePath} не знайдено.");
+                throw new DirectoryNotFoundException($"Директорія {textNewsDirectory} не знайдена.");
             }
-            Company company = new Company("Microsoft", new List<string> { "MSFT", "Майкрософт" }, new DateTime(1975, 4, 4), "Satya Nadella", 163000);
 
-            TextAnalyzer analyzer = new TextAnalyzer(company);
+            CompanyList companyList = new CompanyList();
 
-            List<string> files = FileManager.GetFilesInDirectory(newDirectory);
+            foreach (var company in companyList.Companies)
+            {
+                TextAnalyzer analyzer = new TextAnalyzer(company);
 
-            Dictionary<string, object> data = TextAnalyzer.AggregateData(files, analyzer);
+                List<string> files = FileManager.GetFilesInDirectory(textNewsDirectory);
 
-            ReportGenerator.GenerateReport(data, Path.Combine(reportDirectory, "report.json"));
+                Dictionary<string, object> data = TextAnalyzer.AggregateData(files, analyzer);
+
+                string companyReportDirectory = Path.Combine(companiesDirectory, company.Name);
+                Directory.CreateDirectory(companyReportDirectory);
+
+                ReportGenerator.GenerateReport(data, Path.Combine(companyReportDirectory, "report.json"));
+            }
+
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = reportDirectory,
+                UseShellExecute = true,
+                Verb = "open"
+            });
         }
     }
 }
