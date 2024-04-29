@@ -1,0 +1,293 @@
+{
+    "companies": [
+      {
+        "officialName": "Saudi Aramco",
+        "synonyms": ["Saudi Aramco", "2222.SR"]
+      },
+      {
+        "officialName": "Apple Inc.",
+        "synonyms": ["Apple", "AAPL"]
+      },
+      {
+        "officialName": "Microsoft Corporation",
+        "synonyms": ["Microsoft", "MSFT"]
+      },
+      {
+        "officialName": "Amazon.com, Inc.",
+        "synonyms": ["Amazon", "AMZN"]
+      },
+      {
+        "officialName": "Alphabet Inc.",
+        "synonyms": ["Google", "GOOGL"]
+      },
+      {
+        "officialName": "Berkshire Hathaway Inc.",
+        "synonyms": ["Berkshire Hathaway", "BRK.A"]
+      },
+      {
+        "officialName": "Tesla, Inc.",
+        "synonyms": ["Tesla", "TSLA"]
+      },
+      {
+        "officialName": "UnitedHealth Group Incorporated",
+        "synonyms": ["UnitedHealth Group", "UNH"]
+      },
+      {
+        "officialName": "Johnson & Johnson",
+        "synonyms": ["Johnson & Johnson", "JNJ"]
+      },
+      {
+        "officialName": "Visa Inc.",
+        "synonyms": ["Visa", "V"]
+      },
+      {
+        "officialName": "NVIDIA Corporation",
+        "synonyms": ["NVIDIA", "NVDA"]
+      },
+      {
+        "officialName": "JPMorgan Chase & Co.",
+        "synonyms": ["JPMorgan Chase", "JPM"]
+      },
+      {
+        "officialName": "Johnson & Johnson",
+        "synonyms": ["Johnson & Johnson", "JNJ"]
+      },
+      {
+        "officialName": "Samsung Electronics Co., Ltd.",
+        "synonyms": ["Samsung", "005930.KS"]
+      },
+      {
+        "officialName": "Exxon Mobil Corporation",
+        "synonyms": ["Exxon Mobil", "XOM"]
+      },
+      {
+        "officialName": "AT&T Inc.",
+        "synonyms": ["AT&T", "T"]
+      },
+      {
+        "officialName": "Toyota Motor Corporation",
+        "synonyms": ["Toyota", "7203.T"]
+      },
+      {
+        "officialName": "Coca-Cola Company",
+        "synonyms": ["Coca-Cola", "KO"]
+      },
+      {
+        "officialName": "PepsiCo, Inc.",
+        "synonyms": ["PepsiCo", "PEP"]
+      },
+      {
+        "officialName": "Netflix, Inc.",
+        "synonyms": ["Netflix", "NFLX"]
+      },
+      {
+        "officialName": "Adobe Inc.",
+        "synonyms": ["Adobe", "ADBE"]
+      },
+      {
+        "officialName": "Intel Corporation",
+        "synonyms": ["Intel", "INTC"]
+      },
+      {
+        "officialName": "Cisco Systems, Inc.",
+        "synonyms": ["Cisco", "CSCO"]
+      },
+      {
+        "officialName": "Oracle Corporation",
+        "synonyms": ["Oracle", "ORCL"]
+      },
+      {
+        "officialName": "Pfizer Inc.",
+        "synonyms": ["Pfizer", "PFE"]
+      },
+      {
+        "officialName": "Walmart Inc.",
+        "synonyms": ["Walmart", "WMT"]
+      },
+      {
+        "officialName": "Verizon Communications Inc.",
+        "synonyms": ["Verizon", "VZ"]
+      },
+      {
+        "officialName": "The Walt Disney Company",
+        "synonyms": ["Disney", "DIS"]
+      },
+      {
+        "officialName": "McDonald's Corporation",
+        "synonyms": ["McDonald's", "MCD"]
+      }, 
+      {
+        "officialName": "Nike, Inc.",
+        "synonyms": ["Nike", "NKE"]
+      },
+      {
+        "officialName": "The Goldman Sachs Group, Inc.",
+        "synonyms": ["Goldman Sachs", "GS"]
+      },
+      {
+        "officialName": "Morgan Stanley",
+        "synonyms": ["Morgan Stanley", "MS"]
+      },
+      {
+        "officialName": "The Procter & Gamble Company",
+        "synonyms": ["Procter & Gamble", "PG"]
+      },
+      {
+        "officialName": "Chevron Corporation",
+        "synonyms": ["Chevron", "CVX"]
+      },
+      {
+        "officialName": "Bank of America Corporation",
+        "synonyms": ["Bank of America", "BAC"]
+      },
+      {
+        "officialName": "Wells Fargo & Company",
+        "synonyms": ["Wells Fargo", "WFC"]
+      },
+      {
+        "officialName": "Citigroup Inc.",
+        "synonyms": ["Citigroup", "C"]
+      },
+      {
+        "officialName": "General Electric Company",
+        "synonyms": ["General Electric", "GE"]
+      },
+      {
+        "officialName": "American Express Company",
+        "synonyms": ["American Express", "AXP"]
+      },
+      {
+        "officialName": "Qualcomm Incorporated",
+        "synonyms": ["Qualcomm", "QCOM"]
+      },
+      {
+        "officialName": "The Boeing Company",
+        "synonyms": ["Boeing", "BA"]
+      },
+      {
+        "officialName": "Caterpillar Inc.",
+        "synonyms": ["Caterpillar", "CAT"]
+      },
+      {
+        "officialName": "The 3M Company",
+        "synonyms": ["3M", "MMM"]
+      },
+      {
+        "officialName": "Honeywell International Inc.",
+        "synonyms": ["Honeywell", "HON"]
+      },
+      {
+        "officialName": "The Home Depot, Inc.",
+        "synonyms": ["Home Depot", "HD"]
+      },
+      {
+        "officialName": "United Parcel Service, Inc.",
+        "synonyms": ["UPS", "UPS"]
+      },
+      {
+        "officialName": "Merck & Co., Inc.",
+        "synonyms": ["Merck", "MRK"]
+      },
+      {
+        "officialName": "Abbott Laboratories",
+        "synonyms": ["Abbott", "ABT"]
+      },
+      {
+        "officialName": "The Coca-Cola Company",
+        "synonyms": ["Coca-Cola", "KO"]
+      },
+      {
+        "officialName": "Merck & Co., Inc.",
+        "synonyms": ["Merck", "MRK"]
+      },
+      {
+        "officialName": "Bristol-Myers Squibb Company",
+        "synonyms": ["Bristol-Myers Squibb", "BMY"]
+      },
+      {
+        "officialName": "Gilead Sciences, Inc.",
+        "synonyms": ["Gilead Sciences", "GILD"]
+      },
+      {
+        "officialName": "Biogen Inc.",
+        "synonyms": ["Biogen", "BIIB"]
+      },
+      {
+        "officialName": "Amgen Inc.",
+        "synonyms": ["Amgen", "AMGN"]
+      },
+      {
+        "officialName": "AbbVie Inc.",
+        "synonyms": ["AbbVie", "ABBV"]
+      },
+      {
+        "officialName": "Regeneron Pharmaceuticals, Inc.",
+        "synonyms": ["Regeneron", "REGN"]
+      },
+      {
+        "officialName": "Vertex Pharmaceuticals Incorporated",
+        "synonyms": ["Vertex Pharmaceuticals", "VRTX"]
+      },
+      {
+        "officialName": "Illumina, Inc.",
+        "synonyms": ["Illumina", "ILMN"]
+      },
+      {
+        "officialName": "Moderna, Inc.",
+        "synonyms": ["Moderna", "MRNA"]
+      },
+      {
+        "officialName": "The Estée Lauder Companies Inc.",
+        "synonyms": ["Estée Lauder", "EL"]
+      },
+      {
+        "officialName": "Colgate-Palmolive Company",
+        "synonyms": ["Colgate-Palmolive", "CL"]
+      },
+      {
+        "officialName": "Eli Lilly and Company",
+        "synonyms": ["Eli Lilly", "LLY"]
+      },
+      {
+        "officialName": "DuPont de Nemours, Inc.",
+        "synonyms": ["DuPont", "DD"]
+      },
+      {
+        "officialName": "Dow Inc.",
+        "synonyms": ["Dow", "DOW"]
+      },
+      {
+        "officialName": "The Sherwin-Williams Company",
+        "synonyms": ["Sherwin-Williams", "SHW"]
+      },
+      {
+        "officialName": "PPG Industries, Inc.",
+        "synonyms": ["PPG Industries", "PPG"]
+      },
+      {
+        "officialName": "The Clorox Company",
+        "synonyms": ["Clorox", "CLX"]
+      },
+      {
+        "officialName": "Kimberly-Clark Corporation",
+        "synonyms": ["Kimberly-Clark", "KMB"]
+      },
+      {
+        "officialName": "The Kraft Heinz Company",
+        "synonyms": ["Kraft Heinz", "KHC"]
+      }, 
+      {
+        "officialName": "Exxon Mobil Corporation",
+        "synonyms": ["Exxon Mobil", "XOM"]
+      },
+      {
+        "officialName": "Goldman Sachs Group, Inc.",
+        "synonyms": ["Goldman Sachs", "GS"]
+      },
+      {
+        "officialName": "International Business Machines Corporation",
+        "synonyms": ["IBM", "IBM"]
+      }
+    ]
+  }
+  

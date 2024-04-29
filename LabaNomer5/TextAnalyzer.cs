@@ -29,7 +29,7 @@ namespace LabaNomer5
             text = Regex.Replace(text, @"[^\w\s]", "");
             return text;
         }
-        public static Dictionary<string, object> AggregateData(List<string> files, TextAnalyzer analyzer)
+        public static Dictionary<string, object> AggregateData(List<string> files, TextAnalyzer analyzer, Dictionary<string, int> totalMentions)
         {
             Dictionary<string, object> data = new Dictionary<string, object>();
             data["Company"] = new
@@ -51,6 +51,15 @@ namespace LabaNomer5
                 {
                     int mentions = text.Split(new string[] { synonym }, StringSplitOptions.None).Length - 1;
                     fileData[synonym] = mentions;
+
+                    if (totalMentions.ContainsKey(synonym))
+                    {
+                        totalMentions[synonym] += mentions;
+                    }
+                    else
+                    {
+                        totalMentions[synonym] = mentions;
+                    }
                 }
                 textData[file] = new
                 {

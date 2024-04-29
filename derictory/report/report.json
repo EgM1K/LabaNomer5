@@ -1,134 +1,938 @@
-{
-  "Microsoft": {
+[
+  {
     "Company": {
-      "Name": "Microsoft",
+      "Name": null,
       "Synonyms": [
-        "MSFT",
-        "Майкрософт"
+        "Saudi Aramco",
+        "2222.SR"
       ],
-      "DateFounded": "1975-04-04T00:00:00",
-      "CEO": "Satya Nadella",
-      "EmployeeCount": 163000
+      "DateFounded": "1999-03-26T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 16601
     },
-    "TextData": {
-      "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": {
-        "Mentions": {
-          "MSFT": 0,
-          "Майкрософт": 2
-        },
-        "DateModified": "2024-04-15T23:52:57.8364273+03:00",
-        "Size": 1587
-      }
-    }
+    "TotalMentions": 0
   },
-  "Tesla, Inc.": {
+  {
     "Company": {
-      "Name": "Tesla, Inc.",
+      "Name": null,
       "Synonyms": [
-        "TSLA",
-        "Тесла"
+        "Apple",
+        "AAPL"
       ],
-      "DateFounded": "2003-07-01T00:00:00",
-      "CEO": "Elon Musk",
-      "EmployeeCount": 750000
+      "DateFounded": "2005-02-25T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 1162
     },
-    "TextData": {
-      "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": {
-        "Mentions": {
-          "TSLA": 0,
-          "Тесла": 0
-        },
-        "DateModified": "2024-04-15T23:52:57.8364273+03:00",
-        "Size": 1587
-      }
-    }
+    "TotalMentions": 0
   },
-  "Alibaba Group Holding Limited": {
+  {
     "Company": {
-      "Name": "Alibaba Group Holding Limited",
+      "Name": null,
       "Synonyms": [
-        "BABA",
-        "Алібаба"
+        "Microsoft",
+        "MSFT"
       ],
-      "DateFounded": "1999-09-07T00:00:00",
-      "CEO": "Daniel Zhang",
-      "EmployeeCount": 620000
+      "DateFounded": "2007-01-21T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 12395
     },
-    "TextData": {
-      "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": {
-        "Mentions": {
-          "BABA": 0,
-          "Алібаба": 0
-        },
-        "DateModified": "2024-04-15T23:52:57.8364273+03:00",
-        "Size": 1587
-      }
-    }
+    "TotalMentions": 0
   },
-  "Spotify Technology S.A.": {
+  {
     "Company": {
-      "Name": "Spotify Technology S.A.",
+      "Name": null,
       "Synonyms": [
-        "SPOT",
-        "Спотіфай"
+        "Amazon",
+        "AMZN"
       ],
-      "DateFounded": "2006-10-22T00:00:00",
-      "CEO": "Daniel Ek",
-      "EmployeeCount": 42000
+      "DateFounded": "1969-03-23T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 43179
     },
-    "TextData": {
-      "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": {
-        "Mentions": {
-          "SPOT": 0,
-          "Спотіфай": 0
-        },
-        "DateModified": "2024-04-15T23:52:57.8364273+03:00",
-        "Size": 1587
-      }
-    }
+    "TotalMentions": 0
   },
-  "Airbnb, Inc.": {
+  {
     "Company": {
-      "Name": "Airbnb, Inc.",
+      "Name": null,
       "Synonyms": [
-        "ABNB",
-        "Ейрбінбі"
+        "Google",
+        "GOOGL"
       ],
-      "DateFounded": "2008-08-02T00:00:00",
-      "CEO": "Brian Chesky",
-      "EmployeeCount": 130000
+      "DateFounded": "2006-03-01T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 24757
     },
-    "TextData": {
-      "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": {
-        "Mentions": {
-          "ABNB": 0,
-          "Ейрбінбі": 0
-        },
-        "DateModified": "2024-04-15T23:52:57.8364273+03:00",
-        "Size": 1587
-      }
-    }
+    "TotalMentions": 0
   },
-  "Uber Technologies, Inc.": {
+  {
     "Company": {
-      "Name": "Uber Technologies, Inc.",
+      "Name": null,
       "Synonyms": [
-        "UBER",
-        "Убер"
+        "Berkshire Hathaway",
+        "BRK.A"
       ],
-      "DateFounded": "2009-03-09T00:00:00",
-      "CEO": "Dara Khosrowshahi",
-      "EmployeeCount": 84000
+      "DateFounded": "1969-07-24T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 38055
     },
-    "TextData": {
-      "C:\\Users\\egorm\\source\\repos\\LabaNomer5\\derictory\\text.txt": {
-        "Mentions": {
-          "UBER": 0,
-          "Убер": 0
-        },
-        "DateModified": "2024-04-15T23:52:57.8364273+03:00",
-        "Size": 1587
-      }
-    }
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Tesla",
+        "TSLA"
+      ],
+      "DateFounded": "2004-02-17T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 6502
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "UnitedHealth Group",
+        "UNH"
+      ],
+      "DateFounded": "1992-05-17T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 24244
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Johnson & Johnson",
+        "JNJ"
+      ],
+      "DateFounded": "1991-12-11T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 7065
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Visa",
+        "V"
+      ],
+      "DateFounded": "1998-04-22T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 3084
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "NVIDIA",
+        "NVDA"
+      ],
+      "DateFounded": "2002-10-04T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 41035
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "JPMorgan Chase",
+        "JPM"
+      ],
+      "DateFounded": "2015-08-10T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 29058
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Johnson & Johnson",
+        "JNJ"
+      ],
+      "DateFounded": "1984-03-03T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 27963
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Samsung",
+        "005930.KS"
+      ],
+      "DateFounded": "2006-02-11T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 45460
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Exxon Mobil",
+        "XOM"
+      ],
+      "DateFounded": "1982-03-19T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 43019
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "AT&T",
+        "T"
+      ],
+      "DateFounded": "2006-06-01T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 28627
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Toyota",
+        "7203.T"
+      ],
+      "DateFounded": "2012-06-13T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 41453
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Coca-Cola",
+        "KO"
+      ],
+      "DateFounded": "2007-06-02T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 18437
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "PepsiCo",
+        "PEP"
+      ],
+      "DateFounded": "1990-06-25T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 12975
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Netflix",
+        "NFLX"
+      ],
+      "DateFounded": "1978-07-05T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 4956
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Adobe",
+        "ADBE"
+      ],
+      "DateFounded": "1971-06-10T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 22815
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Intel",
+        "INTC"
+      ],
+      "DateFounded": "2005-08-23T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 26538
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Cisco",
+        "CSCO"
+      ],
+      "DateFounded": "2019-03-20T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 32999
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Oracle",
+        "ORCL"
+      ],
+      "DateFounded": "2014-05-17T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 4992
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Pfizer",
+        "PFE"
+      ],
+      "DateFounded": "1982-01-27T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 38964
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Walmart",
+        "WMT"
+      ],
+      "DateFounded": "2017-08-23T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 31387
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Verizon",
+        "VZ"
+      ],
+      "DateFounded": "1981-03-10T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 41080
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Disney",
+        "DIS"
+      ],
+      "DateFounded": "2014-02-20T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 49624
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "McDonald's",
+        "MCD"
+      ],
+      "DateFounded": "1961-12-11T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 19006
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Nike",
+        "NKE"
+      ],
+      "DateFounded": "2009-11-20T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 45825
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Goldman Sachs",
+        "GS"
+      ],
+      "DateFounded": "1984-08-05T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 41681
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Morgan Stanley",
+        "MS"
+      ],
+      "DateFounded": "1968-07-24T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 5656
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Procter & Gamble",
+        "PG"
+      ],
+      "DateFounded": "1972-08-14T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 17911
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Chevron",
+        "CVX"
+      ],
+      "DateFounded": "1993-01-05T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 44977
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Bank of America",
+        "BAC"
+      ],
+      "DateFounded": "1982-06-09T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 19355
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Wells Fargo",
+        "WFC"
+      ],
+      "DateFounded": "2005-03-16T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 15465
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Citigroup",
+        "C"
+      ],
+      "DateFounded": "1972-04-26T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 35546
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "General Electric",
+        "GE"
+      ],
+      "DateFounded": "1970-08-10T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 39042
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "American Express",
+        "AXP"
+      ],
+      "DateFounded": "1978-04-25T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 22021
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Qualcomm",
+        "QCOM"
+      ],
+      "DateFounded": "1995-10-06T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 20111
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Boeing",
+        "BA"
+      ],
+      "DateFounded": "2006-04-12T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 23060
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Caterpillar",
+        "CAT"
+      ],
+      "DateFounded": "1976-11-08T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 1444
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "3M",
+        "MMM"
+      ],
+      "DateFounded": "1996-04-03T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 44434
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Honeywell",
+        "HON"
+      ],
+      "DateFounded": "1987-06-24T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 46885
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Home Depot",
+        "HD"
+      ],
+      "DateFounded": "2019-04-10T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 22820
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "UPS",
+        "UPS"
+      ],
+      "DateFounded": "2000-08-10T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 13813
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Merck",
+        "MRK"
+      ],
+      "DateFounded": "1975-07-15T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 4222
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Abbott",
+        "ABT"
+      ],
+      "DateFounded": "1987-08-05T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 14882
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Coca-Cola",
+        "KO"
+      ],
+      "DateFounded": "1991-01-01T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 48374
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Merck",
+        "MRK"
+      ],
+      "DateFounded": "2016-09-01T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 20697
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Bristol-Myers Squibb",
+        "BMY"
+      ],
+      "DateFounded": "2004-11-08T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 43105
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Gilead Sciences",
+        "GILD"
+      ],
+      "DateFounded": "1968-07-04T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 17657
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Biogen",
+        "BIIB"
+      ],
+      "DateFounded": "2003-06-16T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 44649
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Amgen",
+        "AMGN"
+      ],
+      "DateFounded": "1965-11-13T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 47979
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "AbbVie",
+        "ABBV"
+      ],
+      "DateFounded": "1980-10-24T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 8944
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Regeneron",
+        "REGN"
+      ],
+      "DateFounded": "2018-09-22T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 10854
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Vertex Pharmaceuticals",
+        "VRTX"
+      ],
+      "DateFounded": "1993-05-05T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 20720
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Illumina",
+        "ILMN"
+      ],
+      "DateFounded": "1975-09-22T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 48759
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Moderna",
+        "MRNA"
+      ],
+      "DateFounded": "1991-10-20T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 22218
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Estée Lauder",
+        "EL"
+      ],
+      "DateFounded": "1996-10-05T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 31236
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Colgate-Palmolive",
+        "CL"
+      ],
+      "DateFounded": "1992-11-11T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 22280
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Eli Lilly",
+        "LLY"
+      ],
+      "DateFounded": "1983-03-02T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 28952
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "DuPont",
+        "DD"
+      ],
+      "DateFounded": "1989-07-06T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 40056
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Dow",
+        "DOW"
+      ],
+      "DateFounded": "2002-06-14T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 25480
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Sherwin-Williams",
+        "SHW"
+      ],
+      "DateFounded": "1981-06-08T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 28614
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "PPG Industries",
+        "PPG"
+      ],
+      "DateFounded": "1982-09-02T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 10810
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Clorox",
+        "CLX"
+      ],
+      "DateFounded": "1986-06-16T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 40179
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Kimberly-Clark",
+        "KMB"
+      ],
+      "DateFounded": "2008-04-25T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 46763
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Kraft Heinz",
+        "KHC"
+      ],
+      "DateFounded": "1978-07-01T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 23419
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Exxon Mobil",
+        "XOM"
+      ],
+      "DateFounded": "1985-08-12T00:00:00",
+      "CEO": "CEO 3",
+      "EmployeeCount": 33156
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "Goldman Sachs",
+        "GS"
+      ],
+      "DateFounded": "1974-05-02T00:00:00",
+      "CEO": "CEO 2",
+      "EmployeeCount": 11424
+    },
+    "TotalMentions": 0
+  },
+  {
+    "Company": {
+      "Name": null,
+      "Synonyms": [
+        "IBM",
+        "IBM"
+      ],
+      "DateFounded": "2009-12-22T00:00:00",
+      "CEO": "CEO 1",
+      "EmployeeCount": 1813
+    },
+    "TotalMentions": 0
   }
-}
+]
